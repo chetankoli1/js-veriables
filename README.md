@@ -3,15 +3,15 @@ let name = "chetan";
 ```
 
 ```js
-let Name = "sagar";
+let Rank = "sagar";
 ```
 
 ```js
-let rahul = 1;
+let jay = 1;
 ```
 
 ```js
-let raj = 34;
+let r = 34;
 ```
 
 ```js
@@ -31,5 +31,5 @@ let a = "abc" / 3;
 ```
 
 ```js
-bb = "xyz" * 2;
+x = "xyz" * 2;
 ```
