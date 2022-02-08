@@ -47,30 +47,38 @@ x = "xyz" * 2;
  * @return {string} the score represented as a letter grade
  */
 
- function checkResult(score) {
-      if (score >= 90 && score <= 100) {
-            return 'A';
-          } else if (score >= 80 && score < 90) {
-            return 'B';
-          } else if (score >= 70 && score < 80) {
-            return 'C';
-          } else if (score >= 60 && score < 70) {
-            return 'D';
-          } else if (score <= 59 && score >= 0) {
-            return 'F';
-          } else {
-            return 'wrong score';
-          }
+function checkResult(score) {
+  if (score >= 90 && score <= 100) {
+    return "A";
+  } else if (score >= 80 && score < 90) {
+    return "B";
+  } else if (score >= 70 && score < 80) {
+    return "C";
+  } else if (score >= 60 && score < 70) {
+    return "D";
+  } else if (score <= 59 && score >= 0) {
+    return "F";
+  } else {
+    return "wrong score";
+  }
 }
 
-checkResult(98)
-
+checkResult(98);
 ```
-```js
-const dogAge = (age) => {
- let n = age * 7;
-console.log("Your doggie is " + n +" years old in dog years!")
-}
 
-dogAge(3)
+```js
+/*
+Write a function named calculateDogAge that:
+
+ Takes 1 argument: your puppy's age.
+ Calculates your dog's age based on the conversion rate of 1 human year to 7 dog years.
+ Outputs the result to the screen like so: "Your doggie is NN years old in dog years!".
+ Add an additional argument to the function that takes the conversion rate of human to dog years
+ */
+const dogAge = (age) => {
+  let n = age * 7;
+  console.log("Your doggie is " + n + " years old in dog years!");
+};
+
+dogAge(3);
 ```
