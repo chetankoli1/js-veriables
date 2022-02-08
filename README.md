@@ -66,3 +66,11 @@ x = "xyz" * 2;
 checkResult(98)
 
 ```
+```js
+const dogAge = (age) => {
+ let n = age * 7;
+console.log("Your doggie is " + n +" years old in dog years!")
+}
+
+dogAge(3)
+```
